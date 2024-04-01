@@ -35,6 +35,7 @@ class TimerApp:
         
 def main():
     root = tk.Tk()
+    root.resizable(False, False)
     app = TimerApp(root)
     root.mainloop()
 
