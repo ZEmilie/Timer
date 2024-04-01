@@ -14,6 +14,7 @@ class TimerApp:
         
         self.entry = tk.Entry(self.master)
         self.entry.pack()
+        self.entry.bind("<Return>", self.start_timer_enter)
         
         self.start_button = tk.Button(self.master, text="Démarrer", command=self.start_timer)
         self.start_button.pack()
@@ -24,6 +25,9 @@ class TimerApp:
             self.update_timer()
         except ValueError:
             messagebox.showerror("Erreur", "Veuillez entrer un nombre valide.")
+    
+    def start_timer_enter(self, event):
+        self.start_timer()
         
     def update_timer(self):
         if self.time_left > 0:
