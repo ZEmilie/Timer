@@ -5,8 +5,8 @@ Simple example of creating a timer with Tkinter in Python.
 ## Presentation of the application
 
 This code creates a small Tkinter application with an input field where you can enter the number of seconds for the timer, and a button to start the timer. Once the timer has started, the number of seconds remaining is displayed, and it updates every second until the time is up.
-![Screenshot of the error page.](/test_img/error.png)
-![Screenshot of the timer ending.](/test_img/ok.png)
+<img src="/test_img/error.png" alt="Screenshot of the error page" style="float: left;" />
+<img src="/test_img/ok.png" alt="Screenshot of the timer ending" />
 
 ## Interesting features
 
