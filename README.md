@@ -1,6 +1,7 @@
 # Timer
 
-Simple example of creating a timer with Tkinter in Python.
+Simple example of creating a timer with Tkinter in Python.  
+This have been made with `python 3.11.1` and `tkinter 8.6`
 
 ## Presentation of the application
 
