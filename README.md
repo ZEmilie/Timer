@@ -19,3 +19,11 @@ This code creates a small Tkinter application with an input field where you can 
 ## Installation
 
 Download `main.py` then launch the command `python main.py`
+
+## Auteur
+
+Ce projet a été créé par [Emilie Zhu](https://github.com/emilie-zhu).
+
+## License
+
+This project is licensed under [MIT License](LICENSE).
